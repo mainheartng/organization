@@ -48,3 +48,11 @@ Commit messages can be helpful to understand what was implemented and how to imp
 If you would be working directly on the organization's repository, before sending in your contribution create a fresh branch using the issue you are working on as the branch name for example when working on a bug issues the branch name would be `fix/123-the-name-of-the-issue` while for feature it would read `feat/123-the-name-of-the-issue`.
 
 **Note**: If you choose to `fork` the project the above should still be followed on your profile repository.
+
+## Assigning Issue and Requesting for Code Reviews
+
+For an open issue where a Dev has picked up to work on, such issue can be assign to the developer before kickoff of implementation.
+
+After implantation a request for at least one developer review on a PR related to the issue should be added to the PR.
+
+Every Pull Request may be sent to only the `dev` branch till otherwise.
