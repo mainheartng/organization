@@ -12,7 +12,7 @@ Every `issue` created on the organization's repository with the follwoing topics
    - Tags to use can include `feature`, `roadmap`, and any other descriptive tags.
    - The issue description shall be detailed enough to provide understanding for implementation
  - **Feature Request**: For a feature that is under proposal or suggestion
-   - the `issue` title shall be `feat-request: Name or Short description of the feature requested.
+   - the `issue` title shall be `feat-request: Name or Short description of the feature requested`.
    - Tags to use can include `feature-request`, `suggestion`, and/or any other descriptive tags.
    - The issue description shall be detailed enough to provide understanding for implementation.
  - **Bugs**: For any bug that may rise during testing the application or when in production
