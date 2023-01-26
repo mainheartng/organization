@@ -39,4 +39,12 @@ Creating a `pull-request` can follow a similar parttern with the above for issue
 - `issue` requring a contribution shall be created and linked to the `pull request`. [Read How to Link Pull Request with Issue here](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue)
 - in place of a `bug` issue the topic shall be `fix: Name or Short description of the bug` with `fix` tag The topic, description and tags shall remain the same with `issue` tags.
 
+**Note**: An `in-progress` tag can be added to an issue with opened `pull request`.
+
 ### Writing Commit message
+Commit messages can be helpful to understand what was implemented and how to improve or suggest way forward for the implementation, `commit` messages/topics should mention the `issue` number, the `issue` title and the purpose for example a commit message for a feature with `issue` number 123 would read `feat: #123 Name or description of the issue` while for a bug fix would read `fix: #123 name or description of issue`.
+
+### Creating branch
+If you would be working directly on the organization's repository, before sending in your contribution create a fresh branch using the issue you are working on as the branch name for example when working on a bug issues the branch name would be `fix/123-the-name-of-the-issue` while for feature it would read `feat/123-the-name-of-the-issue`.
+
+**Note**: If you choose to `fork` the project the above should still be followed on your profile repository.
