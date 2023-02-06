@@ -1,7 +1,7 @@
 name: Schedule team meetings
 on:
   schedule:
-    - cron: 32 23 * *  1
+    - cron: 00 23 * *  1
 jobs:
   build:
     runs-on: ubuntu-latest
