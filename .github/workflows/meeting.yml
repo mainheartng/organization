@@ -1,0 +1,16 @@
+name: Build Agenda for Wednesday meetings
+on:
+  issues:
+    types: [labeled, unlabeled]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: wesleytodd/meeting-maker@v0
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        schedules: 2023-02-06T22:20:00.0Z/P2W # first occurance of the meeting and recurrance schedule
+        createWithin: P2D # create agenda within 2 days of the meeting
+        issueTitle: "Wednesday Team Meeting of <%= date.toFormat('yyyy-MM-dd') %>"
+        labels: meeting
+        agendaLabel: meeting-agenda
