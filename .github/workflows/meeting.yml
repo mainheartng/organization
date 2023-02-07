@@ -14,4 +14,4 @@ jobs:
         schedules: ${now/P7D}
         issueTitle: Meeting <%= date.toFormat('yyyy-MM-dd') %>
         agendaLabel: meeting-agenda
-        labels: meeting
+        label: meeting
