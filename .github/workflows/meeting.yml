@@ -3,7 +3,7 @@ on:
   issues:
     types: [labeled, unlabeled]
   schedule:
-    - cron: 20 01 * *  2
+    - cron: 40 10 * *  2
 jobs:
   build:
     runs-on: ubuntu-latest
