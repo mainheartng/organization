@@ -1,9 +1,8 @@
 name: Schedule team meetings
 on:
-  issues:
-    types: [labeled, unlabeled]
+
   schedule:
-    - cron: 30 11 * *  3
+    - cron: 30 12 * *  3
 jobs:
   build:
     runs-on: ubuntu-latest
