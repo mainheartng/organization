@@ -3,7 +3,7 @@ on:
   issues:
     types: [labeled, unlabeled]
   schedule:
-    - cron: 00 13 * *  2
+    - cron: 00 11 * *  3
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,4 +14,4 @@ jobs:
         schedules: ${now/P7D}
         issueTitle: Meeting <%= date.toFormat('yyyy-MM-dd') %>
         agendaLabel: meeting-agenda
-        label: meeting
+        meetingLabels: meeting
