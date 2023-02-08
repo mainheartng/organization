@@ -11,7 +11,7 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         schedules: ${2023-02-15T20:30:00.0Z/P1W}
-        issueTitle: Meeting <%= date.toFormat('yyyy-MM-dd') %>
+        issueTitle: "meeting: Main Heart Wednesday team meeting <%= date.toFormat('yyyy-MM-dd') %>"
         agendaLabel: meeting-agenda
         labels: meeting
         
