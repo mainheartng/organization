@@ -1,9 +1,16 @@
-# Working Group Meeting - <%= date.toFormat("MMMM d, yyyy") %>
+# Wednesday Team Meeting - <%= date.toFormat("MMMM d, yyyy") %>
 
 ## Attendance
 
-- [ ] Person A, Afflilation
-- [ ] Person B, Afflilation
+- [ ] Hassan Sani, @inidaname
+- [ ] Ibrahim, @hallydon
+- [ ] Kelvin, @KelvinthePM
+- [ ] Godsent @DataDeus
+- [ ] Akim @keemzyddev
+- [ ] Emmanuel @Odenfedy
+- [ ] Abu Madi @mxhdiqaim
+- [ ] Umar @prexidential
+
 ...
 
 ## Agenda
@@ -18,5 +25,5 @@ Extracted from **<%= agendaLabel %>** labelled issues and pull requests from **<
 
 
 ## Notes
-
+Other issues from other repos maybe added to the comment
 ## Chat
