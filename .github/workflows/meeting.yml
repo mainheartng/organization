@@ -10,7 +10,7 @@ jobs:
     - uses: wesleytodd/meeting-maker@v0
       with:
         token: ${{ secrets.CO_ACCESS }}
-        schedules: ${2023-02-15T20:30:00.0Z/P1W}
+        schedules: 2023-02-15T20:30:00.0Z/P1W
         issueTitle: "Main Heart Wednesdays team meeting <%= date.toFormat('yyyy-MM-dd') %>"
         agendaLabel: meeting-agenda
         labels: meeting
