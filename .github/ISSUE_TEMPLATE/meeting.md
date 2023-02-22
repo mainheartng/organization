@@ -10,8 +10,10 @@
 - [ ] Emmanuel @Odenfedy
 - [ ] Abu Madi @mxhdiqaim
 - [ ] Umar @prexidential
+- [ ] Tobi @Hugonybi 
+- [ ] Kizito @kizi2nv 
+- [ ] Mubaraq Somuyiwa @Fortress25 
 
-...
 
 ## Agenda
 
